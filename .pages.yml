@@ -1,0 +1,20 @@
+
+media:
+  input: media
+  output: /media
+
+content:
+  - name: projects
+    label: Proyectos LavLab
+    type: collection
+    path: content/projects
+    fields:
+      - name: title
+        label: Título
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+      - name: image
+        label: Portada
+        type: image
