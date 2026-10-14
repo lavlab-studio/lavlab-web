@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Frecuencia",
+    "category": "Experimento",
+    "description": "Un territorio abierto entre el pulso, el ruido y la melodía.",
+    "image": "",
+    "url": "",
+    "published": true
+  },
+  {
+    "title": "Círculo",
+    "category": "Producción",
+    "description": "Ideas que vuelven, se transforman y empiezan de nuevo.",
+    "image": "",
+    "url": "",
+    "published": true
+  },
+  {
+    "title": "Error 03",
+    "category": "Investigación",
+    "description": "El accidente también puede ser una forma de composición.",
+    "image": "",
+    "url": "",
+    "published": true
+  },
+  {
+    "title": "Audio Studies",
+    "category": "Sonido",
+    "description": "Pequeñas investigaciones sobre el espacio y la escucha.",
+    "image": "",
+    "url": "",
+    "published": true
+  },
+  {
+    "title": "33⅓",
+    "category": "Concepto",
+    "description": "Una celebración del sonido como objeto físico.",
+    "image": "",
+    "url": "",
+    "published": true
+  },
+  {
+    "title": "After Hours",
+    "category": "Sesión",
+    "description": "Sesiones sin prisa y sin instrucciones.",
+    "image": "",
+    "url": "",
+    "published": true
+  }
+]
