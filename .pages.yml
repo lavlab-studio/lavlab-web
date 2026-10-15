@@ -1,4 +1,3 @@
-
 media:
   input: media
   output: /media
@@ -18,3 +17,53 @@ content:
       - name: image
         label: Portada
         type: image
+
+  - name: studio_rooms
+    label: El Lab — Salas
+    type: collection
+    path: content/rooms
+    format: yaml
+    filename: '{primary}.yml'
+    fields:
+      - name: title
+        label: Nombre de la sala
+        type: string
+      - name: description
+        label: Descripción
+        type: text
+      - name: images
+        label: Fotografías (puedes añadir tantas como quieras)
+        type: image
+        list: true
+
+  - name: gear
+    label: Gear — Rider técnico
+    type: file
+    path: content/gear.yml
+    fields:
+      - name: description
+        label: Introducción
+        type: text
+      - name: sections
+        label: Categorías del rider
+        type: object
+        list: true
+        fields:
+          - name: title
+            label: Categoría
+            type: string
+          - name: items
+            label: Equipamiento (una línea por equipo)
+            type: text
+
+  - name: site
+    label: Textos generales
+    type: file
+    path: content/site.yml
+    fields:
+      - name: hero_tagline
+        label: Texto de portada
+        type: text
+      - name: manifesto_text
+        label: Texto principal de Manifesto
+        type: text
